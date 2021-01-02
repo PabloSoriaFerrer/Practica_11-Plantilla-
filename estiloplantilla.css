@@ -1,0 +1,14 @@
+body{
+    color: black;
+    background-color: white;
+    font-family: sans-serif;
+}
+
+div.header{
+    text-align: center;
+}
+
+h3{
+    color: slateblue;
+        font-family: "Comic Sans", cursive;
+}

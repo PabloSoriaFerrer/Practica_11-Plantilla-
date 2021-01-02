@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacta</title>
+    <link rel="stylesheet" href="estilocontacta.css">
+</head>
+<body>
+    <h2>Contacta</h2>
+    <div class="header">
+        <p>
+        <a href="index.html">Principal</a>
+        <a href="Plantilla.html">Plantilla</a>
+        <a href="Taquillas.html">Taquillas</a>
+        <a href="Contacta.html">Contacta</a>
+        </p>
+    </div>
+    <hr>
+
+    <h3>CONTACTA</h3>
+    <p>Si durante su uso de la plataforma ha tenido algun erros comuniquelo con el siguiente formulario.</p>
+
+    <h3>FORMULARIO</h3>
+
+    <form action="Contacta.php" method="GET">
+        <fieldset>
+            <p>Nombre<input type="text" name="Nombre" placeholder="Introduce nombre" size="20"></p>
+            <p>
+                1º Apellido<input type="text" name="PrimerApellido" size="20" placeholder="1 Apellido" > 
+                2º Apellido<input type="text" name="SegundoApellido" size="20" placeholder="2 Apellido">
+            </p>
+            <p>
+                Diga aqui el motivo:
+                <textarea name="texto" rows="4" cols="30"></textarea>
+            </p>
+
+            <p>Correo para ponernos en contacto:<input type="email" name="correo"></p>
+
+            <input type="submit" value="Enviar">
+        </fieldset>
+    </form>
+
+
+    <footer>
+        <p>Página no Oficial del Valencia. Creada por Pablo Soria Ferrer. @_pablo.sf</p>
+    </footer>
+</body>
+</html>

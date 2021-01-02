@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taquillas</title>
+    <link rel="stylesheet" href="estilotaquillas.css">
+</head>
+<body>
+    <h2>Taquillas</h2>
+    <div class="header">
+        <p>
+        <a href="index.html">Principal</a>
+        <a href="Plantilla.html">Plantilla</a>
+        <a href="Taquillas.html">Taquillas</a>
+        <a href="Contacta.html">Contacta</a>
+        </p>
+    </div>
+    <hr>
+    <h3>TAQUILLAS</h3>
+    <p>
+        Aquí podras solicitar entradas para ver el proximo que se juegue en Mestalla. Para ello 
+        deberás rellenar el formulario que aparece mas abajo. 
+        En caso de derrota NO se devuelve el dinero.
+    </p>
+
+    <h3>FORMULARIO</h3>
+    <form action="webvalencia.php" method="GET">    
+        <fieldset>
+            <p>Nombre del titular<input type="text" name="Nombre" placeholder="Introduce nombre" size="20"></p>
+            <p>
+                1º Apellido del titular<input type="text" name="PrimerApellido" size="20" > 
+                2º Apellido del titular<input type="text" name="SegundoApellido" size="20">
+            </p>
+            <p>¿Cuantas entradas de adultos(18+) va a querer?[40$]
+                <select name="menu">
+                    <option value="1">Una</option>
+                    <option value="2">Dos</option>
+                    <option value="3">Tres</option>
+                </select>
+            </p>
+
+            <p> ¿Cuantas entradas de niños (5-18) va a querer?[25$]
+                <select name="menu">
+                    <option value="1">Una</option>
+                    <option value="2">Dos</option>
+                    <option value="3">Tres</option>
+                    <option value="4">Cuatro</option>
+                </select>
+            </p>
+        
+            <p>Introduce DNI <input type="text" size="9"></p>
+
+            <p>Introduce Correo del Titular <input type="email" name="correotitular"></p>
+
+            <p>Al darle al botón de enviar se le redireccionará a la página de pago.
+                A su vez, aceptarña nuestros terminos y condiciones que SEGURISIMO ha leido.
+            </p>
+            <input type="submit" value="Enviar">
+
+        </fieldset>
+    </form>
+
+
+
+    <footer>
+        <p>Página no Oficial del Valencia. Creada por Pablo Soria Ferrer. @_pablo.sf</p>
+    </footer>
+</body>
+</html>

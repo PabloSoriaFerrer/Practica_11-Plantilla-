@@ -1,0 +1,14 @@
+body{
+    color: black;
+    background-color: dodgerblue;
+    font-family: sans-serif;
+}
+
+div.header{
+    text-align: center;
+}
+
+h3 {
+color: red;
+    font-family: "Comic Sans", cursive;
+}
